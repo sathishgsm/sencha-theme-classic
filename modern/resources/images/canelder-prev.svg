@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <filter id="Frame" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Arrow_Inactive" data-name="Arrow/Inactive" transform="translate(36 29)">
+    <g transform="matrix(1, 0, 0, 1, -36, -29)" filter="url(#Frame)">
+      <rect id="Frame-2" data-name="Frame" width="24" height="24" rx="6" transform="translate(36 29)" fill="#fff"/>
+    </g>
+    <path id="Path" d="M1.665,4,4.488,6.823a.69.69,0,0,1-.975.975L.2,4.488a.69.69,0,0,1,0-.975L3.512.2a.69.69,0,0,1,.975.975Z" transform="translate(9 8)" fill="#b9b9b9"/>
+  </g>
+</svg>
